@@ -1,0 +1,11 @@
+@import url('variables/vars.css');
+
+@import url('normalize/normalize.css');
+
+@import url('global/global.css');
+
+@import url('articles/articles.css');
+
+@import url('pagination/pagination.css');
+
+@import url('article/article.css');
