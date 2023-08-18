@@ -43,6 +43,11 @@
   border-bottom: 2px solid var(--text-black, #2d2d2d);
 }
 
+.article-breadcrumbs__article_name {
+  color: var(--text-black, #2d2d2d);
+  border-bottom: 2px solid transparent;
+}
+
 .article {
   margin: 0 0 420px 0;
 }

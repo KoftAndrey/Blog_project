@@ -40,9 +40,8 @@ const setArticleAuthor = (author) => {
 
 // Выставить ссылки в навигации
 const setBreadcrumbs = (title, id) => {
-  const crumbsArticle = document.querySelector('.article-breadcrumbs__link_article');
+  const crumbsArticle = document.querySelector('.article-breadcrumbs__article_name');
   crumbsArticle.textContent = title;
-  crumbsArticle.setAttribute('href', `article.html?id=${id}`);
 };
 
 // Установить обратную ссылку
